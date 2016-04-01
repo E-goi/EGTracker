@@ -1,0 +1,6 @@
+framework module EGTracker {
+  umbrella header "EGTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

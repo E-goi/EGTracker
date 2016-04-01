@@ -1,0 +1,14 @@
+PODS:
+  - EGTracker (0.1.0)
+
+DEPENDENCIES:
+  - EGTracker (from `../`)
+
+EXTERNAL SOURCES:
+  EGTracker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EGTracker: 9f4e4d1d44c5f1008c161106b78cb554f8a6a73e
+
+COCOAPODS: 0.39.0

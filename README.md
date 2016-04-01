@@ -6,7 +6,7 @@
 
 ## Usage
 
-Add this Library to your Pod file.
+This Library allows the user to track events from his iOS Apps to the E-Goi server.
 
 ## Requirements
 
