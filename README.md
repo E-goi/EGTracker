@@ -26,9 +26,9 @@ import EGTracker
 
 // Events struct (Suggestion)
 struct EGEvents {
-static let appOpen = "APP_OPEN"
-static let eventButton = "EVENT_BUTTON"
-static let viewHome = "VIEW_HOME"
+    static let appOpen = "APP_OPEN"
+    static let eventButton = "EVENT_BUTTON"
+    static let viewHome = "VIEW_HOME"
 }
 ```
 

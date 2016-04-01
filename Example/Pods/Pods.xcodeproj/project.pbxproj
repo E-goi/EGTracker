@@ -15,6 +15,7 @@
 		4A29AA751CAECC570007B863 /* TrackerDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A29AA701CAECC570007B863 /* TrackerDataBase.xcdatamodeld */; };
 		4A29AA771CAECD460007B863 /* EGExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29AA761CAECD460007B863 /* EGExtentions.swift */; };
 		4A29AA791CAECDE90007B863 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29AA781CAECDE90007B863 /* Reachability.swift */; };
+		4A29AA7A1CAED4300007B863 /* TrackerDataBase.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 4A29AA701CAECC570007B863 /* TrackerDataBase.xcdatamodeld */; };
 		5E79B601AB785ED2E66BA6BCB12C45D1 /* Pods-EGTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F41878FDFD2E7F6415C2697EFBD566 /* Pods-EGTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DC6437087560ED10D63A6BF31892220 /* EGTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D01482533CF8224674E7AFCF93110A00 /* EGTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		884710CFA6D46FBA528C15496F3D34C9 /* EGTracker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4AD3871CFC68D1FC858593B9B512835D /* EGTracker.bundle */; };
@@ -408,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A29AA7A1CAED4300007B863 /* TrackerDataBase.xcdatamodeld in Resources */,
 				884710CFA6D46FBA528C15496F3D34C9 /* EGTracker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
