@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = "EGTracker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of EGTracker."
+  s.summary          = "EGTracker is used to track mobile events to the E-Goi platform."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
+  s.description      = <<-DESC The Pod is used to track events to the E-Goi platform.
+Then you can see how users are interacting with your mobile App.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/EGTracker"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/migchaves/EGTracker"
   s.license          = 'MIT'
-  s.author           = { "Miguel Chaves" => "mchaves@e-goi.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/EGTracker.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Miguel Chaves" => "mchaves.apps@gmail.com" }
+  s.source           = { :git => "https://github.com/migchaves/EGTracker.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -34,7 +33,7 @@ Pod::Spec.new do |s|
     'EGTracker' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'Pod/Classes/TrackerDataBase/*.xcdatamodeld'
+  s.frameworks = 'CoreData'
+
 end
