@@ -19,6 +19,8 @@ it, simply add the following line to your Podfile:
 pod "EGTracker", '~> 0.1.0'
 ```
 
+Before using please copy the "TrackerDataBase.xcdatamodel" to the Project directory. I'm working to solve this bug that crashes the App if the DataBase isn't added manually.
+
 To use just configure the parameters and start tracking events:
 
 ```
