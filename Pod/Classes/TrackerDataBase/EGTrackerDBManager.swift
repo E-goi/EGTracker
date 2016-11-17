@@ -137,7 +137,7 @@ class EGTrackerDBManager: NSObject {
     // MARK: - Private functions
     
     static private func getModelUrl() -> NSURL {
-        return NSBundle.mainBundle().URLForResource("TrackerDataBase", withExtension: "momd")!
+        return NSBundle.mainBundle().URLForResource("TrackerDataBase", withExtension: "mom")!
     }
     
     static private func storeURL () -> NSURL? {
