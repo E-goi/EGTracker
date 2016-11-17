@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EGTracker"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "EGTracker is used to track mobile events to the E-Goi platform."
 
 # This description is used to generate tags and improve search results.
@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC The Pod is used to track events to the E-Goi platform.
+  s.description      = <<-DESC
+The Pod is used to track events to the E-Goi platform.
 Then you can see how users are interacting with your mobile App.
                        DESC
 
